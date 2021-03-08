@@ -1,0 +1,136 @@
+
+/* PRE PROJECT SETTINGS */
+
+:root
+{
+    background-image: url(media/background_image/pexels-jakub-novacek-924824.jpg);
+    background-size: cover;
+}
+
+body
+{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6,p
+{
+    margin: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* NAVIGATION BAR*/
+
+.navigationBar
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.navigationBar >div
+{
+    display: inline-block;
+}
+
+@keyframes rotation
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.website_icon
+{
+    font-size: 200%;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.title-combo > div
+{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.search_bar
+{
+    width: 40%;
+}
+
+.search_bar div
+{
+    display: inline-block;
+}
+
+.search_bar input
+{
+    width: 100%;
+    height: 25px;
+    font-size: 16px;;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 18px;
+}
+
+
+.fal
+{
+    color: white;
+}
+
+
+@keyframes ringing
+{
+    0%
+    {
+        transform: rotate(-15deg);
+    }
+
+    50%
+    {
+        transform: rotate(15deg);
+    }
+
+    100%
+    {
+        transform: rotate(-15deg);
+    }
+}
+
+
+.fa-microphone
+{
+    animation-name: ringing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin-right: 10px;
+}
+
+
+.fa-user
+{
+    font-size: 150%;
+}
