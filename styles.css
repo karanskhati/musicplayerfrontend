@@ -41,6 +41,7 @@ a
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1%;
+
 }
 
 .navigationBar >div
@@ -153,6 +154,7 @@ a
     justify-content: space-around;
     align-items: center;
     margin-right: 50px;
+
 }
 
 .left_section div
@@ -236,3 +238,54 @@ a
     width: 120px;
     height: auto;
 }
+
+.stations
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(27,25,30);
+    margin-top: 50px;
+}
+
+.stations div
+{
+    width: 80px;
+    height: auto;
+}
+.station_image
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.fa-album-collection
+{
+    color: white;
+}
+
+.genere
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.genere div{
+    height: auto;
+    width:33%;
+}
+
+.genere_image
+{
+    height: 10vw;
+    width: 20vw;
+}
+
+
