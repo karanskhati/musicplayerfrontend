@@ -214,3 +214,25 @@ a
     display: inline;
     vertical-align: middle;
 }
+
+.face_images
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+.popular_artist
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular_artist div
+{
+    width: 120px;
+    height: auto;
+}
