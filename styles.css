@@ -5,6 +5,7 @@
 {
     background-image: url(media/background_image/pexels-jakub-novacek-924824.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 body
@@ -129,8 +130,87 @@ a
     margin-right: 10px;
 }
 
+.fa-microphone:hover
+{
+    color: chartreuse;
+}
 
 .fa-user
 {
     font-size: 150%;
+}
+
+/*THIS IS FOR THE LEFT SECTION*/
+
+.left_section
+{
+    height: auto;
+    width: 70%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.left_section div
+{
+    width: 100%;
+    height: auto;
+
+    margin-top: 10px;
+}
+
+.carousel
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel img
+{
+    height: 22vw;
+    width: 22vw;
+    border-radius: 15%;
+}
+
+.carousel img :hover
+{
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
+
+.latest_release
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.latest_release div
+{
+    width: 50%;
+    height: auto;
+}
+
+.cover_images
+{
+    height: 100px;
+    width: 100px;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards div
+{
+    display: inline;
+    vertical-align: middle;
 }
