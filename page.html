@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/68e85e05ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+     <!-- navigation bar-->
+
+     <header class="navigationBar">
+        
+        <div class="title-combo">
+
+            <div class="website_icon">
+                <i class="fas fa-music"></i>
+            </div>
+            
+            <div>
+                <h2>Karan's</h2>
+                <h5>Music Player</h5>
+            </div>
+    
+
+        </div>
+        
+        
+        
+        <div class="search_bar">
+            <div>
+                <i class="fas fa-search"></i>
+            </div>
+            <input name="search" type="text" placeholder="Search Here">
+            <div>
+                <i class="fas fa-microphone-alt"></i>
+            </div>             
+        </div>
+
+        <div>
+
+            <div >
+                <i class="fas fa-bell"></i>
+                Notifications
+            </div>
+        </div>
+
+        <div class="profile_picture">
+            <i class="fas fa-user"></i>
+        </div>
+
+    </header>
+
+
+    <section class="left_section">
+
+        <div class="song_info">
+            <div style="width: 35%;">
+
+                <img class="song_info_image" src="media/song_page/katy perry.png" alt="">
+
+            </div>
+
+            <div class="info_card" style="width: 60%;">
+
+                <div  class="title_and_followers">
+
+                    <div>
+
+                        <h1>Katy Perry</h1>
+                        <p>American Artist</p>
+
+                    </div>
+
+                    <div style="margin-left: 280px;">
+                        <b>851</b> Followers
+                    </div>
+
+                </div>
+
+                <div>
+                    <p>
+                        Katheryn Elizabeth Hudson, known professionally as Katy Perry, is an American singer, songwriter, and television judge. After singing in church during her childhood, she pursued a career in gospel music as a teenager
+
+                    </p>
+                </div>
+
+                <div style="margin-top: 60px;" class="title_and_followers">
+
+                    <div class="play_button">
+                        <h3>Play All</h3>
+                    </div>
+                    <div>
+                        <h4>Follow</h4>
+                    </div>
+
+                </div>
+
+                <div style="margin-top: -10px;">
+                    247 Tracks | 128 Albums
+                </div>
+
+            </div>
+
+        </div >
+
+        <div class="song_list">
+
+            <div class="song_list_card">
+
+                <div>
+                    01
+                </div>
+                <div>
+                    <img class="card_image" src="media/song_page/this is how we do.jpg" alt="">
+                </div>
+                <div class="song_name">
+                    <h4>This is how we do</h4>
+                    Katy Perry
+                </div>
+                <div class="favourite">
+                    <i class="far fa-heart"></i>
+                    &nbsp;
+                    <i class="fas fa-plus"></i>
+                </div>
+
+            </div>
+
+            <div class="song_list_card">
+
+                <div>
+                    01
+                </div>
+                <div>
+                    <img class="card_image" src="media/song_page/this is how we do.jpg" alt="">
+                </div>
+                <div class="song_name">
+                    <h4>This is how we do</h4>
+                    Katy Perry
+                </div>
+                <div class="favourite">
+                    <i class="far fa-heart"></i>
+                    &nbsp;
+                    <i class="fas fa-plus"></i>
+                </div>
+
+            </div>
+
+            
+            
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="active-song-description">
+            <!-- song image -->
+            <div id="song-image">
+                <img src="media/footer_images/katy perry.jpg">
+            </div>
+            <!-- song name and author -->
+            <div class="song-desc">
+                <div>
+                    Imagine by John
+                </div>
+                <div>
+                    John Lenon
+                </div>
+                <!-- heart icon and ban icon -->
+            </div>
+            <div class="heart-and-ban-icon">
+                <span>
+                    <i class="far fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <!-- these are the main player controls -->
+        <div class="player">
+            <div class="controls">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="fas fa-pause-circle"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+            <!-- this is the slider -->
+            <div id="slider">
+                <!-- current time -->
+                <div class="time">
+                    1:39
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <!-- total time -->
+                <div class="time">
+                    4:44
+                </div>
+            </div>
+        </div>
+        <!-- other icons including the volume slider and all -->
+        <div class="extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand-alt"></i>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -176,7 +176,6 @@ header
 {
     width: 100%;
     height: auto;
-
     margin-top: 10px;
 }
 
@@ -639,81 +638,3 @@ input[type="checkbox"]:checked ~ .latest_release_dropdown
 
 /*  THIS IS FOR THE STARTING OF THE MUSIC PAGE */
 
-
-.song_info
-{
-    display: flex;
-    flex-direction: row;
-
-    background: #19171C;
-    padding: 10px;
-}
-
-.song_info_image
-{
-    width: 100%;
-    height: 100%;
-    opacity: 0.8;
-
-}
-
-.info_card
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    margin-left: 15px;
-}
-
-.info_card div
-{
-    width: 100%;
-    height: auto;
-}
-
-.title_and_followers
-{
-    display: flex;
-    direction: row;
-    justify-content:space-evenly;
-    margin-bottom:10px;
-}
-
-.play_button
-{
-    background:radial-gradient(purple,darkblue,white);
-}
-
-.song_list
-{
-    width: 100%;
-    height: auto;
-}
-
-.song_list_card
-{
-    display: flex;
-    position: relative;
-    background: #202439;
-}
-
-.song_name
-{
-    position: absolute;
-    left: 120px;
-}
-
-.favourite
-{
-    position: absolute;
-    left: 65vw;
-}
-
-.card_image
-{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: 35px;
-}
